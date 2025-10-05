@@ -13,6 +13,7 @@ public class HumanName {
     }
 
     public void setName(Name name) {
+        Validator.validateClassName(name.getSurname(), name.getPersonalName(), name.getPatronymic());
         this.name = name;
     }
 
@@ -30,6 +31,7 @@ public class HumanName {
 
     //С параметрами
     public HumanName(Name name, int height){
+        Validator.validateClassHumanName(name, height);
         this.name = name;
         this.height = height;
     }

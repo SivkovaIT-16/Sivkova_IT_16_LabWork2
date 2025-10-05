@@ -24,6 +24,11 @@ public class Validator {
         validateHeight(height);
     }
 
+    public static void validateClassHumanName(Name name, int height) {
+        validateClassName(name.getSurname(), name.getPersonalName(), name.getPatronymic());
+        validateHeight(height);
+    }
+
     public static void validateTitle(String title){
         if (title == null || title.length() == 0){
             throw new IllegalArgumentException("Название города не может быть пустым.");
