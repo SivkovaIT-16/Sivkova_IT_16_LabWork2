@@ -6,11 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         try {
-            //1.2
-            Human human1 = new Human("Клеопатра", 152);
-            Human human2 = new Human("Пушкин", 167);
-            Human human3 = new Human("Владимир", 189);
-//
+//            //1.2
+//            Human human1 = new Human("Клеопатра", 152);
+//            Human human2 = new Human("Пушкин", 167);
+//            Human human3 = new Human("Владимир", 189);
+
 //            System.out.println(human1);
 //            System.out.println(human2);
 //            System.out.println(human3);
@@ -22,11 +22,11 @@ public class Main {
 //            int height = scanner.nextInt();
 //            Human human4 = new Human(name, height);
 //            System.out.println("Созданный человек: " + human4);
-//
-            //1.3
-            Name name1 = new Name("Клеопатра");
-            Name name2 = new Name("Пушкин", "Александр", "Сергеевич");
-            Name name3 = new Name("Маяковский", "Владимир");
+
+//            //1.3
+//            Name name1 = new Name("Клеопатра");
+//            Name name2 = new Name("Пушкин", "Александр", "Сергеевич");
+//            Name name3 = new Name("Маяковский", "Владимир");
 //
 //            System.out.println(name1);
 //            System.out.println(name2);
@@ -51,13 +51,13 @@ public class Main {
 //            System.out.println(humanName2);
 //            System.out.println(humanName3);
 
-            //3.3 и 4.8
-            Cities cityA = new Cities("A");
-            Cities cityB = new Cities("B");
-            Cities cityC = new Cities("C");
-            Cities cityD = new Cities("D");
-            Cities cityE = new Cities("E");
-            Cities cityF = new Cities("F");
+//            //3.3 и 4.8
+//            Cities cityA = new Cities("A");
+//            Cities cityB = new Cities("B");
+//            Cities cityC = new Cities("C");
+//            Cities cityD = new Cities("D");
+//            Cities cityE = new Cities("E");
+//            Cities cityF = new Cities("F");
 
 //            //3.3
 //            cityA.addWay(cityB, 5);
