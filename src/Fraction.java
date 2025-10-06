@@ -113,14 +113,14 @@ public class Fraction {
         }
 
         //Сокращение дроби
-        int shorten = shorten(numerator, denominator);
+        int shorten = NOD(numerator, denominator);
         numerator /= shorten;
         denominator /= shorten;
 
     }
 
     //НОД (метод Евклида)
-    private int shorten(int numerator, int denominator){
+    private int NOD(int numerator, int denominator){
         numerator = Math.abs(numerator);
         denominator = Math.abs(denominator);
         while (denominator != 0){

@@ -54,15 +54,15 @@ public class Main {
             System.out.println(humanName3);
             System.out.println("Созданный: " + humanName4);
 
-//            //3.3 и 3.5
+//            //3.3 и 4.8
 //            Cities cityA = new Cities("A");
 //            Cities cityB = new Cities("B");
 //            Cities cityC = new Cities("C");
 //            Cities cityD = new Cities("D");
 //            Cities cityE = new Cities("E");
 //            Cities cityF = new Cities("F");
-//
-              //3.3
+
+//            //3.3
 //            cityA.addWay(cityB, 5);
 //            cityA.addWay(cityD, 6);
 //            cityA.addWay(cityF, 1);
@@ -89,7 +89,7 @@ public class Main {
 //            System.out.println(cityD);
 //            System.out.println(cityE);
 //            System.out.println(cityF);
-//
+
 //            //4.8
 //            Map<Cities, Integer> waysA = new HashMap<>();
 //            Map<Cities, Integer> waysB = new HashMap<>();
